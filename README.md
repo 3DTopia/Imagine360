@@ -1,14 +1,14 @@
 # Imagine360: Immersive 360 Video Generation from Perspective Anchor
 
 
-[**Project page**](https://ys-imtech.github.io/projects/Imagine360/) | [**Paper**](https://arxiv.org/abs/2408.13252) | [**Video**](https://www.youtube.com/watch?v=oeGw8GN4yJc)
+[**Project page**](https://ys-imtech.github.io/projects/Imagine360/) | [**Paper**](https://arxiv.org/abs/2408.13252) | [**Video**](https://youtu.be/gRGo4B41GXY)
 
 
 
 [Jing Tan*](https://sparkstj.github.io/), 
 [Shuai Yang*](https://ys-imtech.github.io/), 
 [Tong Wu✉️](https://wutong16.github.io/), 
-[Jingwen He](https://scholar.google.com/citations?user=GUxrycUAAAAJ&hl=zh-CN), 
+[Jingwen He](https://github.com/hejingwenhejingwen), 
 [Yuwei Guo](https://guoyww.github.io/), 
 [Ziwei Liu](https://liuziwei7.github.io/), 
 [Dahua Lin✉️](http://dahua.me/)
