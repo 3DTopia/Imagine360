@@ -28,8 +28,7 @@
 
 
 ## 📷 Quick Demos（only show panoramic video here）
-More results can be found on our [Project Gallery](https://ys-imtech.github.io/projects/Imagine360/). <b>We highly recommend using a mobile phone to access the [website(use Chrome browser)](https://ys-imtech.github.io/projects/Imagine360/) for device motion tracking, enhancing the immersive quality of the VR interactive experience. </b>
-
+More results can be found on our [Project Gallery](https://ys-imtech.github.io/projects/Imagine360/). 
 
 
 <table class="center">
@@ -56,6 +55,16 @@ More results can be found on our [Project Gallery](https://ys-imtech.github.io/p
     <td><img src="assets/case9.gif"></td>
     </tr>
 </table>
+
+
+## 📖 VR Mode Guideline
+<b>We highly recommend using a mobile phone to access the [website(better use Chrome browser)](https://ys-imtech.github.io/projects/Imagine360/) for device motion tracking, enhancing the immersive quality of the VR interactive experience. </b>
+
+🔥The Loading may be a little slow, but your wait will be worth it !!!
+
+![](assets/guideline.png)
+
+
 
 ## 📧 Contact Us
 Jing Tan: [tj023@ie.cuhk.edu.hk](mailto:tj023@ie.cuhk.edu.hk)  
