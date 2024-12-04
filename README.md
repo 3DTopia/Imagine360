@@ -69,7 +69,7 @@ More results can be found on our [Project Gallery](https://ys-imtech.github.io/p
 ## 📧 Contact Us
 Jing Tan: [tj023@ie.cuhk.edu.hk](mailto:tj023@ie.cuhk.edu.hk)  
 Shuai Yang: [yang_shuai@sjtu.edu.cn](mailto:yang_shuai@sjtu.edu.cn)  
-Tong Wu: [wt020@ie.cuhk.edu.hk](mailto:wt020@ie.cuhk.edu.hk)  
+Tong Wu: [wutong16@stanford.edu](mailto:wutong16@stanford.edu)  
 
 ## 📆 Todo
 - [ ] Release Code (Open source in January 2025)
