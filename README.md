@@ -39,20 +39,25 @@ More results can be found on our [Project Page](https://ys-imtech.github.io/proj
     <td><img src="assets/case1.gif"></td>
     <td><img src="assets/case2.gif"></td>
     <td><img src="assets/case3.gif"></td>
-    <td><img src="assets/case4.gif"></td>
     </tr>
 </table>
 <!-- <p style="margin-left: 2em; margin-top: -1em">Model：<a href="https://civitai.com/models/30240/toonyou">ToonYou</a><p> -->
 
 <table>
     <tr>
+    <td><img src="assets/case4.gif"></td>
     <td><img src="assets/case5.gif"></td>
     <td><img src="assets/case6.gif"></td>
-    <td><img src="assets/case7.gif"></td>
-    <td><img src="assets/case8.gif"></td>
     </tr>
 </table>
 
+<table>
+    <tr>
+    <td><img src="assets/case7.gif"></td>
+    <td><img src="assets/case8.gif"></td>
+    <td><img src="assets/case9.gif"></td>
+    </tr>
+</table>
 
 ## Contact Us
 Jing Tan: [tj023@ie.cuhk.edu.hk](mailto:tj023@ie.cuhk.edu.hk)  
