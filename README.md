@@ -7,13 +7,13 @@
 
 [Jing Tan*](https://sparkstj.github.io/), 
 [Shuai Yang*](https://ys-imtech.github.io/), 
-[Tong Wu](https://wutong16.github.io/), 
+[Tong Wu✉️](https://wutong16.github.io/), 
 [Jingwen He](https://scholar.google.com/citations?user=GUxrycUAAAAJ&hl=zh-CN), 
 [Yuwei Guo](https://guoyww.github.io/), 
 [Ziwei Liu](https://liuziwei7.github.io/), 
-[Dahua Lin](http://dahua.me/)
+[Dahua Lin✉️](http://dahua.me/)
 
-<p style="font-size: 0.6em; margin-top: -1em">*Equal Contribution</p>
+<p style="font-size: 0.6em; margin-top: -1em">*Equal Contribution，✉️Corresponding author</p></p>
 
 
 
