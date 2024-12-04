@@ -30,7 +30,7 @@
 
 
 ## 📷 Quick Demos
-More results can be found on our [Project Page](https://ys-imtech.github.io/projects/Imagine360/). We highly recommend using a mobile phone to access the [website](https://ys-imtech.github.io/projects/Imagine360/) for device motion tracking, enhancing the immersive quality of the VR interactive experience. 
+More results can be found on our [Project Gallery](https://ys-imtech.github.io/projects/Imagine360/). We highly recommend using a mobile phone to access the [website](https://ys-imtech.github.io/projects/Imagine360/) for device motion tracking, enhancing the immersive quality of the VR interactive experience. 
 
 
 
