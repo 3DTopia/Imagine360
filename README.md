@@ -5,8 +5,6 @@
 
 
 
-</br>
-
 [Jing Tan*](https://sparkstj.github.io/), 
 [Shuai Yang*](https://ys-imtech.github.io/), 
 [Tong Wu](https://wutong16.github.io/), 
