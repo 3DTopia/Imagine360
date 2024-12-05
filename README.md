@@ -1,7 +1,7 @@
 # Imagine360: Immersive 360 Video Generation from Perspective Anchor
 
 
-[**Project page**](https://ys-imtech.github.io/projects/Imagine360/) | [**Paper**](https://arxiv.org/abs/2408.13252) | [**Video**](https://youtu.be/gRGo4B41GXY)
+[**Project page**](https://ys-imtech.github.io/projects/Imagine360/) | [**Paper**](https://arxiv.org/abs/2412.03552) | [**Video**](https://youtu.be/gRGo4B41GXY)
 
 
 
@@ -18,9 +18,9 @@
 
 
 <p align="center">
-<a href="https://arxiv.org/abs/2408.13252"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/abs/2412.03552"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 <a href="https://ys-imtech.github.io/projects/Imagine360/"><img src="https://img.shields.io/badge/Project-Website-red"></a>
-<a href="https://www.youtube.com/watch?v=oeGw8GN4yJc"><img src="https://img.shields.io/static/v1?label=Demo&message=Video&color=orange"></a>
+<a href="https://www.youtube.com/watch?v=gRGo4B41GXY"><img src="https://img.shields.io/static/v1?label=Demo&message=Video&color=orange"></a>
 <a href="" target='_blank'>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=YS-IMTech.Imagine360" />
 </a>
@@ -77,11 +77,14 @@ Tong Wu: [wutong16@stanford.edu](mailto:wutong16@stanford.edu)
 ## ✒️ Citation
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 
-<!-- ```bibtex
-@article{yang2024layerpano3d,
-  title={LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation},
-  author={Yang, Shuai and Tan, Jing and Zhang, Mengchen and Wu, Tong and Li, Yixuan and Wetzstein, Gordon and Liu, Ziwei and Lin, Dahua},
-  journal={arXiv preprint arXiv:2408.13252},
-  year={2024}
+```bibtex
+@misc{tan2024imagine360immersive360video,
+      title={Imagine360: Immersive 360 Video Generation from Perspective Anchor}, 
+      author={Jing Tan and Shuai Yang and Tong Wu and Jingwen He and Yuwei Guo and Ziwei Liu and Dahua Lin},
+      year={2024},
+      eprint={2412.03552},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.03552}, 
 }
-``` -->
+```
