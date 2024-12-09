@@ -78,13 +78,10 @@ Tong Wu: [wutong16@stanford.edu](mailto:wutong16@stanford.edu)
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 
 ```bibtex
-@misc{tan2024imagine360immersive360video,
-      title={Imagine360: Immersive 360 Video Generation from Perspective Anchor}, 
-      author={Jing Tan and Shuai Yang and Tong Wu and Jingwen He and Yuwei Guo and Ziwei Liu and Dahua Lin},
-      year={2024},
-      eprint={2412.03552},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.03552}, 
+@article{tan2024imagine360,
+  title={Imagine360: Immersive 360 Video Generation from Perspective Anchor},
+  author={Tan, Jing and Yang, Shuai and Wu, Tong and He, Jingwen and Guo, Yuwei and Liu, Ziwei and Lin, Dahua},
+  journal={arXiv preprint arXiv:2412.03552},
+  year={2024}
 }
 ```
