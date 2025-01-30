@@ -1,15 +1,15 @@
-output_dir: "outputs2"
-pretrained_model_path: "/mnt/petrelfs/tanjing/stable-diffusion-2-1/"
+output_dir: "outputs"
+pretrained_model_path: "path/to/stable-diffusion-2-1/"
 
-lmm_path: '/mnt/petrelfs/tanjing/Qwen-VL-Chat'
+lmm_path: 'path/to/Qwen-VL-Chat'
 
-mvmodel_pretrained_model_path: '/mnt/hwfile/3dobject_aigc/tanjing/imagine360_weights/v1/checkpoints/mv_model_checkpoint-20000.ckpt'
+mvmodel_pretrained_model_path: '/path/to/mv_model_checkpoint-20000.ckpt'
 
-pers_unet_pretrained_model_path: '/mnt/hwfile/3dobject_aigc/tanjing/imagine360_weights/v1/checkpoints/pers_unet_checkpoint-20000.ckpt'
-pano_unet_pretrained_model_path: '/mnt/hwfile/3dobject_aigc/tanjing/imagine360_weights/v1/checkpoints/pano_unet_checkpoint-20000.ckpt'
+pers_unet_pretrained_model_path: '/path/to/pers_unet_checkpoint-20000.ckpt'
+pano_unet_pretrained_model_path: '/path/to/pano_unet_checkpoint-20000.ckpt'
 
 perslora_motion_module_path: 
-panolora_motion_module_path: '/mnt/hwfile/3dobject_aigc/tanjing/imagine360_weights/v1/checkpoints/panolora_20000.ckpt'
+panolora_motion_module_path: '/path/to/panolora_20000.ckpt'
 
 
 
@@ -80,4 +80,4 @@ angle_adapt: 'geocalib'
 use_ip_plus_cross_attention: true
 ip_plus_condition: 'video'
 image_encoder_name : 'SAM'
-image_pretrained_model_path : "../pretrained_models/sam_vit_b_01ec64.pth"
+image_pretrained_model_path : "/path/to/sam_vit_b_01ec64.pth"
