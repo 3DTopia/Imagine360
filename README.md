@@ -26,6 +26,8 @@
 </a>
 </p>
 
+## ✨ Updates
+**[2025-01-30]** 🔥 Release `inference code` and `checkpoints`!
 
 ## 📷 Quick Demos（only show panoramic video here）
 More results can be found on our [Project Gallery](https://ys-imtech.github.io/projects/Imagine360/). 
@@ -64,7 +66,40 @@ More results can be found on our [Project Gallery](https://ys-imtech.github.io/p
 
 ![](assets/guideline.png)
 
+## 🔧 Steps for Inference
+### Prepare Environment 
+```
+git clone https://github.com/3DTopia/Imagine360.git
+cd Imagine360
 
+conda create -n imagine360 python==3.10
+conda activate imagine360
+
+pip install -r requirements.txt
+```
+
+- Use GeoCalibration as elevation estimation model (by default):
+```
+python -m pip install -e "git+https://github.com/cvg/GeoCalib#egg=geocalib"
+```
+- Use PerspectiveFields as elevation estimation model:
+```
+pip install git+https://github.com/jinlinyi/PerspectiveFields.git
+```
+
+### Download Weights
+Download our checkpoints from [google drive](https://drive.google.com/drive/folders/1kjuZqJz8ZDkhUi9tb7AIsc9JlQPRK97Z?usp=sharing), and also [[sam_vit_b_01ec64](https://github.com/facebookresearch/segment-anything/tree/main?tab=readme-ov-file#model-checkpoints)], [[stable-diffusion-2-1](https://huggingface.co/stabilityai/stable-diffusion-2-1)], and [[Qwen-VL-Chat](https://huggingface.co/Qwen/Qwen-VL-Chat)].
+
+Update the paths to these pre-trained models in `configs/prompt-dual.yaml`.
+
+### Perspective-to-360 Video Generation
+```
+python inference_dual_p2e.py --config configs/prompt-dual.yaml
+```
+If the result does not align with expectations, try modify text prompt or set different seeds (-1 for random seed) in `configs/prompt-dual.yaml`.
+
+## Super Resolution [Optional]
+For better visualization under VR mode, we recommend to use [VEnhancer](https://github.com/Vchitect/VEnhancer) for video super resolution. Follow [the instructions](sr/README.md) to update VEnhancer code for 360 close-loop continuity.
 
 ## 📧 Contact Us
 Jing Tan: [tj023@ie.cuhk.edu.hk](mailto:tj023@ie.cuhk.edu.hk)  
@@ -72,7 +107,12 @@ Shuai Yang: [yang_shuai@sjtu.edu.cn](mailto:yang_shuai@sjtu.edu.cn)
 Tong Wu: [wutong16@stanford.edu](mailto:wutong16@stanford.edu)  
 
 ## 📆 Todo
-- [ ] Release Code (Open source in January 2025)
+- [x] Release Inference Code 
+- [ ] Gradio Demo
+- [ ] Release Train Code 
+
+## 📚 Acknowledgements
+Special thanks to [PanFusion](https://github.com/chengzhag/PanFusion), [FollowYourCanvas](https://github.com/mayuelala/FollowYourCanvas), [360DVD](https://github.com/Akaneqwq/360DVD) and [AnimateDiff](https://github.com/guoyww/AnimateDiff) for codebase and pre-trained weights.
 
 ## ✒️ Citation
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
