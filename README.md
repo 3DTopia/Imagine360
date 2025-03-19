@@ -27,7 +27,9 @@
 </p>
 
 ## ✨ Updates
-**[2025-01-30]** 🔥 Release `inference code` and `checkpoints`!
+**[2025-03-19]** 🔥 Release our curated 360 video dataset `YouTube360`.
+
+**[2025-01-30]** Release `inference code` and `checkpoints`!
 
 ## 📷 Quick Demos（only show panoramic video here）
 More results can be found on our [Project Gallery](https://ys-imtech.github.io/projects/Imagine360/). 
@@ -65,6 +67,9 @@ More results can be found on our [Project Gallery](https://ys-imtech.github.io/p
 🔥The Loading may be a little slow, but your wait will be worth it !!!
 
 ![](assets/guideline.png)
+
+## Dataset
+Please refer to [`dataset/dataset.md`](dataset/dataset.md) for the metadata of our curated YouTube videos.
 
 ## 🔧 Steps for Inference
 ### Prepare Environment 
@@ -108,6 +113,7 @@ Tong Wu: [wutong16@stanford.edu](mailto:wutong16@stanford.edu)
 
 ## 📆 Todo
 - [x] Release Inference Code 
+- [x] Release Dataset
 - [ ] Gradio Demo
 - [ ] Release Train Code 
 
