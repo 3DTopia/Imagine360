@@ -28,10 +28,11 @@ We are committed to maintaining transparency and compliance in our data collecti
 - **Shot Segmentation**: Videos were *downsampled by x2*, segmented into 100-frame, fps20 clips with TransNetV2 and FFmpeg. If a video exceeds 40000 frames, we further downsample x3 and keep the first 20000 frames.
 - **Motion Filtering**: Panoflow was used to filter clips based on motion.
 - **Text Annotation**: VideoLLaMa2 annotated clips with content information.
+- **Content Filtering**: Remove semantic duplicates based on text captions.
 
 ## Dataset Overview
 ### YouTube360
-The `YouTube360` dataset consists of 10,281 video clips curated from online 360 videos. Each data sample includes metadata on YouTubeID, videoID, captions, timestamps, originalFPS and TotalFrames. Please note the time duration of each clip is x2 times longer as we downsample each frame by x2. 
+The `YouTube360` dataset consists of 9557 video clips curated from online 360 videos. Each data sample includes metadata on YouTubeID, videoID, captions, timestamps, originalFPS and TotalFrames. Please note the time duration of each clip is x2 times longer as we downsample each frame by x2. 
 
 ### Data Fields
 The [`dataset/youtube360.csv`](youtube360.csv) file contains the following columns:
